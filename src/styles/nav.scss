@@ -1,0 +1,38 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    padding: 15px;
+    transition: all 0.5s;
+    height: 100px;
+
+    .logo {
+        max-width: 250px;
+    }
+
+    nav {
+        ul {
+            li {
+                a {
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+                    transition: all 0.5s;
+
+                    &:hover {
+                        color: $primaryColor !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+header.sticky {
+    border-bottom: 5px solid #05ee3c;
+    background-color: #000;
+    transition: all 0.5s;
+    padding: 10px;
+    height: 85px;
+}

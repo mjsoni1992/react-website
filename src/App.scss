@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import "./styles/variables.scss";
+@import "./styles/nav.scss";
+@import "./styles/heroSlider.scss";
+@import "./styles/featuredContent.scss";
+@import "./styles/stuffSlider.scss";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttonLink {
+    background-color: $primaryColor;
+    color: #000;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.sectionHeading {
+    color: #fff;
+    margin-bottom: 50px;
+    padding-left: 70px;
+
+    &:before {
+        content: "";
+        background-color: #05ee3c;
+        width: 70px;
+        height: 35px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,36 @@
+.featuredContent {
+    background-color: #000;
+    padding: 50px 0;
+
+    .featuredImageWrapper {
+        img {
+            max-width: 100%;
+        }
+
+
+    }
+
+    h2,
+    p {
+        color: #fff;
+    }
+
+    .space50 {
+        height: 50px;
+    }
+
+    .buttonLink {
+        color: #000;
+        margin-top: 35px;
+        display: inline-block;
+        border: 1px solid #000;
+        transition: 0.5s;
+
+        &:hover {
+            color: #fff;
+            background-color: transparent;
+            border: 1px solid #fff;
+        }
+    }
+
+}
