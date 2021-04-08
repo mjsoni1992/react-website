@@ -1,0 +1,29 @@
+.blogSection {
+    background-color: #000;
+    padding: 100px 0;
+
+    .imgWrapper {
+        min-height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .contentWrapper {
+        padding: 15px;
+        background-color: #0e0e0e;
+        margin-bottom: 30px;
+
+        .blogTitle,
+        p {
+            color: #fff
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        a {
+            display: none;
+        }
+    }
+}
